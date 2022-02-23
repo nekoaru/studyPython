@@ -36,6 +36,7 @@ def main(n):
     if (n >= 1):
         return ((main(n-1)**2 - (main(n-1) / 25) - 1)**3 + 1)
 
+
 def main(x):
     f = 0
     for i in range(len(x)):
